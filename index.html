@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <main class="main">
+    <img src="images/logo.svg" alt="logo de la empresa" class="img_logo">
+    <p class="first_paragraph">We are launching <span class="first_paragraph--soon">soon!</span></p>
+    <p class="second_paragraph">Subscribe and get notified</p>
+    
+    <form id="inscripcionForm" class="form" novalidate>
+      <div class="form_input_paragraph">
+        <input type="email" name="correo" id="form_email" class="" placeholder="Your email address..." required>
+        <p class="validacion_correo">please provide a valid email address.</p>
+      </div>
+      <button type="submit" class="form_button">Notify Me</button>
+    </form>
+    <p id="mensaje"></p>
+
+    <img src="images/illustration-dashboard.png" alt="Nuestro producto" class="img_producto">
+
+    <div class="redes_sociales">
+      <a href="http://www.linkedin.com/in/camilo-téllez" target="_blank" rel="noopener noreferrer">
+        <figure class="figure_rs">
+          <img src="images/logos/linkedin (1).png" alt="linkedin" class="img_logors img_linkedin">
+        </figure>
+      </a>
+      <a href="https://github.com/camilo-atb" target="_blank" rel="noopener noreferrer">
+        <figure class="figure_rs">
+          <img src="images/logos/github.png" alt="github" class="img_logors img_github">
+        </figure>
+      </a>
+      <a href="https://www.youtube.com/@camilotellez887" target="_blank" rel="noopener noreferrer">
+        <figure class="figure_rs">
+          <img src="images/logos/youtube.png" alt="youtube" class="img_logors img_youtube">
+        </figure>
+      </a>
+    </div>
+
+    <p class="copyright_paragraph">&copy; Copyright Ping. All rights reserved.</p>
+  
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer">Frontend Mentor</a>. 
+      Coded by <a href="http://www.linkedin.com/in/camilo-téllez" target="_blank" rel="noopener noreferrer">Camilo Andrés Téllez Benítez</a>.
+    </p>
+  </main>
+
+  <script src="script/spp.js"></script>
+</body>
+</html>
