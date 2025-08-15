@@ -1,6 +1,6 @@
 # Frontend Mentor - Ping Coming Soon Page 🚀
 
-Solución al reto **[Ping Coming Soon Page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)** de *Frontend Mentor*.
+Solución al reto **[Ping Coming Soon Page](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)** de Frontend Mentor.
 
 ## 📑 Tabla de contenidos
 - [📌 Descripción general](#-descripción-general)
@@ -37,7 +37,7 @@ Los usuarios deben poder:
 ---
 
 ### 🔗 Enlace al proyecto
-- 🌐 **Sitio en línea:** [Ver sitio en línea](https://your-solution-url.com)  
+- 🌐 **Sitio en línea:** [Ver sitio en línea](https://camilo-atb.github.io/ping-coming-soon-page/)  
 
 ---
 
