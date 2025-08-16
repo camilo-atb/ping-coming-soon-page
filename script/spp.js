@@ -4,7 +4,7 @@ document.getElementById('inscripcionForm').addEventListener('submit', function(e
   const parrafoError = document.querySelector(".validacion_correo");
   const inputEmail = document.getElementById('form_email');
   const email = inputEmail.value.trim().toLowerCase().replace(/[^\x20-\x7E]/g, "");
-  const API_URL = `${window.location.origin}/inscripcion`;
+  const API_URL = `https://ping-coming-soon-page-java.onrender.com/inscripcion`;
   const mensaje = document.getElementById('mensaje');
   const boton = document.querySelector('.form_button');
   boton.disabled = true;
